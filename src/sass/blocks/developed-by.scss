@@ -1,0 +1,19 @@
+.developed-by {
+  background-color: $bright-green;
+  max-width: 200px;
+  max-height: 45px;
+
+  align-self: flex-end;
+
+  a {
+    display: block;
+
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    color: $white;
+  }
+}
