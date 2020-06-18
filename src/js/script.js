@@ -59,7 +59,9 @@ const createCard = (path, name, description) => {
     <div class="filter__content-wrapper">
       <div class="filter__front">
         <img src="${path}" width="320" height="200" alt="${name}" class="filter__img">
-        <h3 class="filter__name">${name}</h3>
+        <h3 class="filter__name">
+          <span>${name}</span>
+        </h3>
       </div>
 
       <div class="filter__back">
