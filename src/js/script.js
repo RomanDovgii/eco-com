@@ -145,7 +145,7 @@ const generateCards = (array, type) => {
 }
 
 const showMoreCards = () => {
-  let showedCards = filters.length - 1;
+  let showedCards = filters.length;
   let filtersLocal = database.filters;
 
   for (let i = showedCards; i < filtersLocal.length; i++) {
